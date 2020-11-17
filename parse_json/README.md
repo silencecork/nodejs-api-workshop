@@ -1,0 +1,20 @@
+# 如何在Node.js中剖析JSON
+- 以下針對常出現的JSON格式進行剖析練習
+- 練習項目依照資料夾分類
+  - 01.obj
+    - 單純的JSON Object
+  - 02.array
+    - 單純的JSON Array
+  - 03.obj_in_obj
+    - 巢狀的JSON Object
+  - 04.obj_in_obj_array
+    - JSON Array中的JSON Object是巢狀的JSON Object
+  - 05.ary_in_obj
+    - JSON Object中有JSON Array
+  - 06.ary_in_obj_array
+    - JSON Array中的JSON Object中有JSON Array
+  - 07.final
+    - 實際呼叫API後剖析的例子
+- 每個資料夾下都包含兩個資料夾
+  - course 課程說明用
+  - practice 練習用
