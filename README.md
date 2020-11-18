@@ -39,6 +39,21 @@
   - https://www.postman.com/downloads/
 - 如何使用Postman？
   - https://tw.alphacamp.co/blog/postman-api-tutorial-for-beginners
+- 測試API使用
+  - GET
+  ```
+  API位置: https://opendata.cwb.gov.tw/fileapi/v1/opendataapi/F-C0032-009
+  參數: 
+  Authorization=rdec-key-123-45678-011121314
+  format=JSON
+  ```
+  - POST
+  ```
+  API位置: https://postman-echo.com/post
+  Form Data:
+  key1: value1
+  key2: value2
+  ```
 - 使用Postman後，會對什麼是呼叫API與API回傳的資料有所了解
 - 接下來需要討論兩個問題
   - API的呼叫方式有哪些？
@@ -49,12 +64,12 @@
 - 呼叫方式可以從Postman發送request的選單中可以知道所有的呼叫方式
 - 常用的方式包括GET, POST, PUT, PATCH, DELETE
 - **其中最主要的就是GET和POST**
-- GET大部分狀況，資料是從Query String取得
-- POST大部分狀況，資料是從Message Body取得
+- GET大部分狀況，資料是從Query String傳送到API
+- POST大部分狀況，資料是從Form Data傳送到API
 
 ## 呼叫API後回傳的內容
 
-- 回傳的資料可以是JSON、XML，但主流為JSON
+- 回傳的資料可以是JSON、XML，**但主流為JSON**
 
 - JSON的[介紹](https://blog.wu-boy.com/2011/04/你不可不知的-json-基本介紹)
 
@@ -242,8 +257,15 @@
      }
     }
     ```
-
-  - 套件request的[使用教學](https://attacomsian.com/blog/node-http-requests-using-request-module)
+  - 請試試！在Node.js中使用Post來呼叫API
+  ```
+  API位置: https://postman-echo.com/post
+  Form Data:
+  key1: value1
+  key2: value2
+  ```
+  - 補充資料
+    - 套件request的[使用教學](https://attacomsian.com/blog/node-http-requests-using-request-module)
 
 ## 如何在Node.js剖析回傳的JSON資料
 
