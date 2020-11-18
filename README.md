@@ -1,4 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Web API的使用與建立](#web-api%E7%9A%84%E4%BD%BF%E7%94%A8%E8%88%87%E5%BB%BA%E7%AB%8B)
+  - [什麼是API？](#%E4%BB%80%E9%BA%BC%E6%98%AFapi)
+  - [什麼是Web API？](#%E4%BB%80%E9%BA%BC%E6%98%AFweb-api)
+  - [來嘗試使用API](#%E4%BE%86%E5%98%97%E8%A9%A6%E4%BD%BF%E7%94%A8api)
+  - [API的呼叫方式](#api%E7%9A%84%E5%91%BC%E5%8F%AB%E6%96%B9%E5%BC%8F)
+  - [呼叫API後回傳的內容](#%E5%91%BC%E5%8F%ABapi%E5%BE%8C%E5%9B%9E%E5%82%B3%E7%9A%84%E5%85%A7%E5%AE%B9)
+  - [如何在Node.js中呼叫API](#%E5%A6%82%E4%BD%95%E5%9C%A8nodejs%E4%B8%AD%E5%91%BC%E5%8F%ABapi)
+  - [如何在Node.js剖析回傳的JSON資料](#%E5%A6%82%E4%BD%95%E5%9C%A8nodejs%E5%89%96%E6%9E%90%E5%9B%9E%E5%82%B3%E7%9A%84json%E8%B3%87%E6%96%99)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Web API的使用與建立
+[toc]
 
 ## 什麼是API？
 
