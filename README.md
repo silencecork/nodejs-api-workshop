@@ -1,20 +1,28 @@
+# Web API的使用與建立
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Web API的使用與建立](#web-api%E7%9A%84%E4%BD%BF%E7%94%A8%E8%88%87%E5%BB%BA%E7%AB%8B)
-  - [什麼是API？](#%E4%BB%80%E9%BA%BC%E6%98%AFapi)
-  - [什麼是Web API？](#%E4%BB%80%E9%BA%BC%E6%98%AFweb-api)
-  - [來嘗試使用API](#%E4%BE%86%E5%98%97%E8%A9%A6%E4%BD%BF%E7%94%A8api)
-  - [API的呼叫方式](#api%E7%9A%84%E5%91%BC%E5%8F%AB%E6%96%B9%E5%BC%8F)
-  - [呼叫API後回傳的內容](#%E5%91%BC%E5%8F%ABapi%E5%BE%8C%E5%9B%9E%E5%82%B3%E7%9A%84%E5%85%A7%E5%AE%B9)
-  - [如何在Node.js中呼叫API](#%E5%A6%82%E4%BD%95%E5%9C%A8nodejs%E4%B8%AD%E5%91%BC%E5%8F%ABapi)
-  - [如何在Node.js剖析回傳的JSON資料](#%E5%A6%82%E4%BD%95%E5%9C%A8nodejs%E5%89%96%E6%9E%90%E5%9B%9E%E5%82%B3%E7%9A%84json%E8%B3%87%E6%96%99)
+- [什麼是API？](#%E4%BB%80%E9%BA%BC%E6%98%AFapi)
+- [什麼是Web API？](#%E4%BB%80%E9%BA%BC%E6%98%AFweb-api)
+- [來嘗試使用API](#%E4%BE%86%E5%98%97%E8%A9%A6%E4%BD%BF%E7%94%A8api)
+  - [下載Postman](#%E4%B8%8B%E8%BC%89postman)
+  - [如何使用Postman？](#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8postman)
+  - [測試API使用](#%E6%B8%AC%E8%A9%A6api%E4%BD%BF%E7%94%A8)
+- [API的呼叫方式](#api%E7%9A%84%E5%91%BC%E5%8F%AB%E6%96%B9%E5%BC%8F)
+  - [GET](#get)
+  - [POST](#post)
+- [呼叫API後回傳的內容](#%E5%91%BC%E5%8F%ABapi%E5%BE%8C%E5%9B%9E%E5%82%B3%E7%9A%84%E5%85%A7%E5%AE%B9)
+  - [JSON的介紹](#json%E7%9A%84%E4%BB%8B%E7%B4%B9)
+- [如何在Node.js中呼叫API](#%E5%A6%82%E4%BD%95%E5%9C%A8nodejs%E4%B8%AD%E5%91%BC%E5%8F%ABapi)
+  - [安裝Node.js](#%E5%AE%89%E8%A3%9Dnodejs)
+  - [在Windows建立一個Node.js專案](#%E5%9C%A8windows%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8Bnodejs%E5%B0%88%E6%A1%88)
+  - [撰寫Node.js呼叫API的程式碼](#%E6%92%B0%E5%AF%ABnodejs%E5%91%BC%E5%8F%ABapi%E7%9A%84%E7%A8%8B%E5%BC%8F%E7%A2%BC)
+- [如何在Node.js剖析回傳的JSON資料](#%E5%A6%82%E4%BD%95%E5%9C%A8nodejs%E5%89%96%E6%9E%90%E5%9B%9E%E5%82%B3%E7%9A%84json%E8%B3%87%E6%96%99)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Web API的使用與建立
-[toc]
 
 ## 什麼是API？
 
@@ -51,11 +59,13 @@
 
 ## 來嘗試使用API
 
-- 下載Postman
+### 下載Postman
   - https://www.postman.com/downloads/
-- 如何使用Postman？
+
+### 如何使用Postman？
   - https://tw.alphacamp.co/blog/postman-api-tutorial-for-beginners
-- 測試API使用
+
+### 測試API使用
   - GET
   ```
   API位置: https://opendata.cwb.gov.tw/fileapi/v1/opendataapi/F-C0032-009
@@ -80,18 +90,22 @@
 - 呼叫方式可以從Postman發送request的選單中可以知道所有的呼叫方式
 - 常用的方式包括GET, POST, PUT, PATCH, DELETE
 - **其中最主要的就是GET和POST**
-- GET大部分狀況，資料是從Query String傳送到API
-- POST大部分狀況，資料是從Form Data傳送到API
+
+### GET
+  - GET大部分狀況，資料是從Query String傳送到API
+
+### POST
+  - POST大部分狀況，資料是從Form Data傳送到API
 
 ## 呼叫API後回傳的內容
 
 - 回傳的資料可以是JSON、XML，**但主流為JSON**
 
-- JSON的[介紹](https://blog.wu-boy.com/2011/04/你不可不知的-json-基本介紹)
+### JSON的[介紹](https://blog.wu-boy.com/2011/04/你不可不知的-json-基本介紹)
 
-- JSON有兩個基本格式
+  - JSON有兩個基本格式
 
-  - JSON Object
+    - JSON Object
 
     ```json
     {
@@ -100,7 +114,7 @@
     }
     ```
 
-  - JSON Array
+    - JSON Array
 
     ```json
     [
@@ -115,20 +129,20 @@
     ]
     ```
 
-- 不論哪一種格式，最主要的內容都是以**「索引值-內容」(Key-value)**的方式來呈現資料
+  - 不論哪一種格式，最主要的內容都是以**「索引值-內容」(Key-value)**的方式來呈現資料
 
   ```
   "first_name": "Justin"
   ```
 
-  - first_name: 就是索引值(key)
-  - Justin: 就是內容(value)
+    - first_name: 就是索引值(key)
+    - Justin: 就是內容(value)
 
-- 在呼叫API後收到的資料如何剖析，我們後續再做說明
+  - 在呼叫API後收到的資料如何剖析，我們後續再做說明
 
 ## 如何在Node.js中呼叫API
 
-- 首先先安裝Node.js
+### 安裝Node.js
 
   - Windows安裝檔[下載位置](https://nodejs.org/en/#download)
 
@@ -143,7 +157,7 @@
       v14.15.1
       ```
 
-- 在Windows建立一個Node.js專案
+### 在Windows建立一個Node.js專案
 
   - 打開命令提示字元
 
@@ -187,7 +201,7 @@
     │   package.json -> 專案會使用到的套件    
     ```
 
-- 撰寫Node.js呼叫API的程式碼
+### 撰寫Node.js呼叫API的程式碼
 
   - 打開Postman，點選右方的Code
 
@@ -273,14 +287,14 @@
      }
     }
     ```
-  - 請試試！在Node.js中使用Post來呼叫API
+  ### 請試試！在Node.js中使用Post來呼叫API
   ```
   API位置: https://postman-echo.com/post
   Form Data:
   key1: value1
   key2: value2
   ```
-  - 補充資料
+  ### 補充資料
     - 套件request的[使用教學](https://attacomsian.com/blog/node-http-requests-using-request-module)
 
 ## 如何在Node.js剖析回傳的JSON資料
