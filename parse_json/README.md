@@ -1,3 +1,5 @@
+# 如何在Node.js中剖析JSON
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -8,7 +10,6 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# 如何在Node.js中剖析JSON
 ## 在Javascript中的Object與陣列
 
 - 了解Javascript中的Object物件可以幫助我們快速上手後續剖析JSON
