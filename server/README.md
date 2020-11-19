@@ -109,4 +109,15 @@
     </html>
     ```
 
-    
+## 建立接收GET的API
+
+[課程](https://github.com/silencecork/nodejs-api-workshop/tree/master/server/01.get_api)
+
+## 接收GET帶入的參數
+
+[課程](https://github.com/silencecork/nodejs-api-workshop/tree/master/server/02.get_api_param)
+
+## 建立接收POST的API
+
+[課程](https://github.com/silencecork/nodejs-api-workshop/tree/master/server/03.post_api)
+

@@ -11,15 +11,10 @@ app.get('/', function (request, response) {
 });
 
 app.get('/user', function(request, response) {
-    let sample = `
-    {
-        "first_name": "Justin",
-        "last_name": "Liu"
-    }
-    `;
-    // JSON字串一定要轉為JSON Object或JSON Array
-    let data = JSON.parse(sample);
-
+    let sample = {
+        first_name: "Justin",
+        last_name: "Liu"
+    };
     return response.json(data);
 });
 
