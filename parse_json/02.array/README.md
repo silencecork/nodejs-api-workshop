@@ -1,5 +1,7 @@
 # 剖析JSON
 
+- 程式碼位於course資在夾下
+
 ## 剖析單一JSON Array
 
 - 一個JSON的資料格式最基本就是有JSON Object與Array
@@ -85,4 +87,14 @@
   console.log(firstName);
   ```
 
-  
+## 執行
+
+- 在指令模式下，到程式碼所在目錄執行以下指令
+
+  ```bash
+  node index.js
+  ```
+
+## 練習
+
+- 打開practice資料夾中的index.js，其中有說明，請試著完成

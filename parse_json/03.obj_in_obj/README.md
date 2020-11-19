@@ -1,5 +1,7 @@
 # 剖析JSON
 
+- 程式碼位於course資在夾下
+
 ## 剖析巢狀的JSON Object
 
 - 巢狀JSON Object長相如下
@@ -75,4 +77,15 @@
   console.log(id);
   ```
 
-  
+## 執行
+
+- 在指令模式下，到程式碼所在目錄執行以下指令
+
+  ```bash
+  node index.js
+  ```
+
+## 練習
+
+- 打開practice資料夾中的index.js，其中有說明，請試著完成
+

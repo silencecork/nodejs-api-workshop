@@ -10,7 +10,7 @@ var data = ['Justin', 'Jerry', 'Mary'];
 app.use(bodyParser.urlencoded());
 
 app.post('/add_user', function (request, response) {
-    let name = request.body.name;
+    let name = request.body["name"];
     data.push(name);
 
     let msg = {
