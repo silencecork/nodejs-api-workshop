@@ -84,7 +84,7 @@ app.listen(PORT, function(err) {
 ## 試用API
 
 - 打開Postman，照以下方式來試看看API
-  - request欄位輸入 http://127.0.0.1:3000/user，參數帶入first_name=<任何字串>
+  - request欄位輸入 http://127.0.0.1:3000/user ，參數帶入first_name=<任何字串>
   - 方法使用GET
 
 ## 練習
