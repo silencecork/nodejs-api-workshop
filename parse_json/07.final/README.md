@@ -59,12 +59,12 @@
 
   - 第一步：使用request呼叫API
   - 第二步：將回傳的資料由JSON Object轉換為Javascript Object
-  - 第三步：要以索引值cwbopendata取得Javascript Object
-  - 第四步：由第三步的Javascript Object，以索引值dataset取得Javascript Object
-  - 第五步：由第四步的Javascript Object，以索引值parameterSet取得Javascript Object
-  - 第六步：由第五步的Javascript Object，以索引值parameter取得Javascript Array
+  - 第三步：要以索引值**cwbopendata**取得Javascript Object
+  - 第四步：由第三步的Javascript Object，以索引值**dataset**取得Javascript Object
+  - 第五步：由第四步的Javascript Object，以索引值**parameterSet**取得Javascript Object
+  - 第六步：由第五步的Javascript Object，以索引值**parameter**取得Javascript Array
   - 第七步：針對第六步的Javascript Array，執行迴圈，取出Javascript Array中的每個Javascrip Object
-  - 第八步：在第七步中的每次回圈迭代時，從Javascript Object中以索引值parameterValue取出對應的說明文字
+  - 第八步：在第七步中的每次回圈迭代時，從Javascript Object中以索引值**parameterValue**取出對應的說明文字
 
   ```javascript
   var request = require('request');
