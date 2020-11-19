@@ -299,3 +299,8 @@
 
 ## 如何在Node.js剖析回傳的JSON資料
 
+[課程](https://github.com/silencecork/nodejs-api-workshop/blob/master/parse_json/README.md)
+
+## 建立Web API Server
+
+[課程](https://github.com/silencecork/nodejs-api-workshop/tree/master/server/README.md)
