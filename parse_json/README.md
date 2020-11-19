@@ -112,7 +112,9 @@
   console.log('陣列第二個物件的key1是' + value2)
   ```
 
-  
+## 練習
+
+- 打開00.basic資料夾下的index.js檔，並按照其中說明進行練習
 
 ## 在Node.js中剖析JSON的範例說明
 
