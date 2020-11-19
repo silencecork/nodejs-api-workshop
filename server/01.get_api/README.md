@@ -40,7 +40,7 @@ app.listen(3000, function () {
   - app.get()
     - 表示建立一個可以接受HTTP GET方法的API入口
   - app.get()包含兩個參數
-    - 參數1：接收HTTP GET連線的路徑，在本例子中是/，所以當使用GET呼叫http://127.0.0.1:3000/時，就會進入到這個app.get()中
+    - 參數1：接收HTTP GET連線的路徑，在本例子中是/，所以當使用GET呼叫 http://127.0.0.1:3000/ 時，就會進入到這個app.get()中
     - 參數2：當接收來自HTTP GET的API呼叫時，就會到這個回呼(callback)函數，函數包含兩個參數
       - 回呼函數的參數1 request：
         - 從這個參數中可以得到HTTP GET的資訊，後續課程我們回看到可以從這個參數可以得到傳入的參數
@@ -78,7 +78,7 @@ app.get('/user', function(request, response) {
 });
 ```
 
-- 上述程式碼就會接收HTTP GET傳送至API http://127.0.0.1:3000/user的request
+- 上述程式碼就會接收HTTP GET傳送至API http://127.0.0.1:3000/user 的request
 
 ## 回傳HTML網頁
 
@@ -100,7 +100,7 @@ app.get('/user', function(request, response) {
   });
   ```
 
-  - 呼叫http://127.0.0.1:3000/web的request都會導入此處
+  - 呼叫 http://127.0.0.1:3000/web 的request都會導入此處
   - 最後的response.send(html)，可以回傳任何字串給呼叫API的人，所以本例子回傳了html資料
 
 ## 重啟Server
@@ -112,6 +112,15 @@ app.get('/user', function(request, response) {
   ```javascript
   node index.js
   ```
+
+## 試用API
+
+- 打開Postman，照以下方式來試看看API
+  - request欄位輸入
+    - http://127.0.0.1:3000/
+    - http://127.0.0.1:3000/user
+    - http://127.0.0.1:3000/web
+  - 方法使用GET
 
 ## 練習
 

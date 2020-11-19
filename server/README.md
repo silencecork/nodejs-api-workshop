@@ -14,8 +14,6 @@
 
 - 在專案資料夾下，建立index.js檔，為建立主要程式碼
 
-  
-
 ## 安裝Express
 
 - 在專案資料夾下，輸入以下指令
@@ -23,8 +21,6 @@
   ```bash
   npm install express --save
   ```
-
-  
 
 ## 啟動API Server
 
