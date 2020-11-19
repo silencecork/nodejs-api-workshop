@@ -20,6 +20,7 @@
   - [在Windows建立一個Node.js專案](#%E5%9C%A8windows%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8Bnodejs%E5%B0%88%E6%A1%88)
   - [撰寫Node.js呼叫API的程式碼](#%E6%92%B0%E5%AF%ABnodejs%E5%91%BC%E5%8F%ABapi%E7%9A%84%E7%A8%8B%E5%BC%8F%E7%A2%BC)
 - [如何在Node.js剖析回傳的JSON資料](#%E5%A6%82%E4%BD%95%E5%9C%A8nodejs%E5%89%96%E6%9E%90%E5%9B%9E%E5%82%B3%E7%9A%84json%E8%B3%87%E6%96%99)
+- [建立Web API Server](#%E5%BB%BA%E7%AB%8Bweb-api-server)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -295,7 +296,7 @@
   key2: value2
   ```
   ### 補充資料
-    - 套件request的[使用教學](https://attacomsian.com/blog/node-http-requests-using-request-module)
+- 套件request的[使用教學](https://attacomsian.com/blog/node-http-requests-using-request-module)
 
 ## 如何在Node.js剖析回傳的JSON資料
 

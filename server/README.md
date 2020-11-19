@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [建立Web API Server](#%E5%BB%BA%E7%AB%8Bweb-api-server)
+  - [建立一個新專案](#%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8B%E6%96%B0%E5%B0%88%E6%A1%88)
+  - [安裝Express](#%E5%AE%89%E8%A3%9Dexpress)
+  - [啟動API Server](#%E5%95%9F%E5%8B%95api-server)
+  - [建立接收GET的API](#%E5%BB%BA%E7%AB%8B%E6%8E%A5%E6%94%B6get%E7%9A%84api)
+  - [接收GET帶入的參數](#%E6%8E%A5%E6%94%B6get%E5%B8%B6%E5%85%A5%E7%9A%84%E5%8F%83%E6%95%B8)
+  - [建立接收POST的API](#%E5%BB%BA%E7%AB%8B%E6%8E%A5%E6%94%B6post%E7%9A%84api)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 建立Web API Server
 
 - 建立Web API Server，我們使用express套件

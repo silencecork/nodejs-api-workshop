@@ -2,6 +2,17 @@
 
 - 程式碼位於course資在夾下
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [剖析真實API Response](#%E5%89%96%E6%9E%90%E7%9C%9F%E5%AF%A6api-response)
+  - [以政府OpenData為例子](#%E4%BB%A5%E6%94%BF%E5%BA%9Copendata%E7%82%BA%E4%BE%8B%E5%AD%90)
+  - [執行](#%E5%9F%B7%E8%A1%8C)
+  - [練習](#%E7%B7%B4%E7%BF%92)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 以政府OpenData為例子
 
 - 台北市天氣小幫手

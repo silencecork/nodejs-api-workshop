@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [如何在Node.js中剖析JSON](#%E5%A6%82%E4%BD%95%E5%9C%A8nodejs%E4%B8%AD%E5%89%96%E6%9E%90json)
+  - [在Javascript中的Object與陣列](#%E5%9C%A8javascript%E4%B8%AD%E7%9A%84object%E8%88%87%E9%99%A3%E5%88%97)
+  - [在Node.js中剖析JSON的範例說明](#%E5%9C%A8nodejs%E4%B8%AD%E5%89%96%E6%9E%90json%E7%9A%84%E7%AF%84%E4%BE%8B%E8%AA%AA%E6%98%8E)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 如何在Node.js中剖析JSON
 ## 在Javascript中的Object與陣列
 

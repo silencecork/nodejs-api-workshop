@@ -2,6 +2,17 @@
 
 - 程式碼位於course資在夾下
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [剖析JSON](#%E5%89%96%E6%9E%90json)
+  - [剖析巢狀JSON Object的陣列](#%E5%89%96%E6%9E%90%E5%B7%A2%E7%8B%80json-object%E7%9A%84%E9%99%A3%E5%88%97)
+  - [執行](#%E5%9F%B7%E8%A1%8C)
+  - [練習](#%E7%B7%B4%E7%BF%92)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 剖析巢狀JSON Object的陣列
 
 - 巢狀JSON Object的陣列呈現如下
