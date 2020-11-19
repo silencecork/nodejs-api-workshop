@@ -118,19 +118,19 @@
 
 - 以下針對常出現的JSON格式進行剖析練習
 - 練習項目依照資料夾分類
-  - 01.obj
+  - [01.obj](https://github.com/silencecork/nodejs-api-workshop/tree/master/parse_json/01.obj)
     - 單一JSON Object
-  - 02.array
+  - [02.array](https://github.com/silencecork/nodejs-api-workshop/tree/master/parse_json/02.array)
     - 單一JSON Array
-  - 03.obj_in_obj
+  - [03.obj_in_obj](https://github.com/silencecork/nodejs-api-workshop/tree/master/parse_json/03.obj_in_obj)
     - 巢狀的JSON Object
-  - 04.obj_in_obj_array
+  - [04.obj_in_obj_array](https://github.com/silencecork/nodejs-api-workshop/tree/master/parse_json/04.obj_in_obj_array)
     - 巢狀JSON Object的陣列
-  - 05.ary_in_obj
+  - [05.ary_in_obj](https://github.com/silencecork/nodejs-api-workshop/tree/master/parse_json/05.ary_in_obj)
     - JSON Object中有JSON Array
-  - 06.ary_in_obj_array
+  - [06.ary_in_obj_array](https://github.com/silencecork/nodejs-api-workshop/tree/master/parse_json/06.ary_in_obj_array)
     - JSON Array中的JSON Object中有JSON Array
-  - 07.final
+  - [07.final](https://github.com/silencecork/nodejs-api-workshop/tree/master/parse_json/07.final)
     - 實際呼叫API後剖析的例子
     - 此專案執行前，記得要切換到專案下，使用**npm install**進行套件安裝
 - 每個資料夾下都包含兩個資料夾
